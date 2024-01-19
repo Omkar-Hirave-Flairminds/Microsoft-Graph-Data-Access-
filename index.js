@@ -41,7 +41,7 @@ app.get('/getData', async (req, res) => {
     const daily_report = await getDailyData(results);
 
     const emailData = getEmailData(daily_report, 'daily');
-    const sendMail = await sendMailAsync(emailData.emailSubject, emailData.emailHtml, ["omkar.hirave@flairminds.com", "omkarhirve05@gmail.com", "omkarhirave005@gmail.com"], authSettings);
+    const sendMail = await sendMailAsync(emailData.emailSubject, emailData.emailHtml, ["omkar.hirave@flairminds.com", "omkarhirve05@gmail.com", "omkarhirave005@gmail.com", "punit.suman@flairminds.com"], authSettings);
 
     console.log("The mail is sent ", sendMail);
     res.json({ success: true, message: 'Data fetched and processed successfully.' });
