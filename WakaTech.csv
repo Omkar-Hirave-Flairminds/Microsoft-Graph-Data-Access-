@@ -1,0 +1,22 @@
+Activity / task,"Primary 
+Owner",Active task update dt,Added on dt,Planned effort (hours),"Efforts
+(hours)",Start dt.,Status,"Dependency 
+owner",Due date,"Start dt. 
+(Actual )","End dt. 
+(Actual )","End dt. 
+(Month )",Status update - for daily customer report (to be filled in first thing in the morning before customer report),Status,Dependency / blocker / status description or update
+Carrier booking issue fixes in edit carrier booking - for multiple containers not able to save dates properly,Punit Suman,,2023-11-1,3,3,2023-11-1,Completed,,2023-11-1,2023-11-1,2023-11-1,12,,Completed,
+Carrier booking other issue checks and fixes,Punit Suman,,2023-11-1,2,2,2023-11-1,Completed,,2023-11-1,2023-11-1,2023-11-1,12,,Completed,
+"Code understanding - knowing the intricacies in carrierBookingModel model - understood getCbrHistory , getFFCarrierAllocation , getCBStatus etc functions",Omkar Hirave,,2023-11-1,8,8,2023-11-1,Completed,,2023-11-1,2023-11-1,2023-11-1,12,,Completed,
+Daily standup meetings,Kunal Danole,,2023-11-1,1,1,2023-11-1,Completed,,2023-11-1,2023-11-1,2023-11-1,12,,Completed,
+Daily standup meetings,Punit Suman,,2023-11-1,1,1,2023-11-1,Completed,,2023-11-1,2023-11-1,2023-11-1,12,,Completed,
+Discussion with Dhanesh on container details coming from inttra,Punit Suman,,2023-11-1,1,1,2023-11-1,Completed,,2023-11-1,2023-11-1,2023-11-1,12,,Completed,
+Setting up basic structure for Bomisco,Kunal Danole,,2023-11-1,1,1,2023-11-1,Completed,,2023-11-1,2023-11-1,2023-11-1,12,,Completed,
+Check the carrier booking issues in qam monitor,Punit Suman,,2023-11-4,1,1,2023-11-4,Completed,,2023-11-4,2023-11-4,2023-11-4,12,,Completed,
+"Code Understanding - Shipping concepts such as voyage , cbr_haulage , difference between carrier_booking_request and vessel_voyage , getSavedCargoMapping API and generateManifest API , other tables such as shipment_consolidation , carrier_booking_request , shipment_consolidation_details , shipment_booking , carrier_booking_responses",Omkar Hirave,,2023-11-4,8,8,2023-11-4,Completed,,2023-11-4,2023-11-4,2023-11-4,12,,Completed,
+Daily standup meetings,Punit Suman,,2023-11-4,0.5,0.5,2023-11-4,Completed,,2023-11-4,2023-11-4,2023-11-4,12,,Completed,
+Make changes in getting carrier booking details api for pagination,Punit Suman,,2023-11-4,0.5,0.5,2023-11-4,Completed,,2023-11-4,2023-11-4,2023-11-4,12,,Completed,
+Make changes in getting shipment consolidation api for carrier booking for filtering and pagination,Punit Suman,,2023-11-4,3,3,2023-11-4,Completed,,2023-11-4,2023-11-4,2023-11-4,12,,Completed,
+Daily standup meetings,Punit Suman,,2023-11-5,1,1,2023-11-5,Completed,,2023-11-5,2023-11-5,2023-11-5,12,,Completed,
+Discuss and make changes in create manual carrier booking api according to new changes in vessel_voyage table,Punit Suman,,2023-11-4,2,2,2023-11-5,Completed,,2023-11-5,2023-11-5,2023-11-5,12,,Completed,
+Implement restriction in editing carrier booking after cargo mapping is done - as discussed this restriction is not required,Punit Suman,,2023-11-5,0.5,0.5,2023-11-5,Completed,,2023-11-5,2023-11-5,2023-11-5,12,,Completed,

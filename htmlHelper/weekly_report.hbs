@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Report</title>
+</head>
+<body>
+    <table style="width: 100%;">
+        <tr>
+            <td style="padding : 10px;">
+                Weekly Tasks Report for <b>{{project_name}}</b> project
+            </td>
+        </tr>
+        <tr>
+            <td style="padding : 10px;">
+                Date: {{date}}
+            </td>
+        </tr>
+        <tr>
+            <td style="padding : 10px;">
+                Total <b>{{total_efforts}} hours</b> of efforts
+            </td>
+        </tr>
+        <tr>
+            <td style="padding : 10px;">
+                <table style="border-collapse: collapse; border-radius: 4px;">
+                    <thead>
+                        <tr style="background-color: #b7d7f4;">
+                            <th style="border: 1px solid gray; padding : 0.5rem; min-width: 100px">Owner</th>
+                            <th style="border: 1px solid gray; padding : 0.5rem; min-width: 100px">Completed</th>
+                            <th style="border: 1px solid gray; padding : 0.5rem; min-width: 100px">Open</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                            {{#weekly_report_table_data}}
+                                <tr style="{{#if (even @index)}}background-color: #f2f2f2;{{/if}}">
+                                    <td style="border: 1px solid gray; padding : 0.5rem; min-width: 100px" align="center">{{owner}}</td>
+                                    <td style="border: 1px solid gray; padding : 0.5rem; min-width: 100px" align="center">{{completed_hours}}</td>
+                                    <td style="border: 1px solid gray; padding : 0.5rem; min-width: 100px" align="center">{{open_hours}}</td>
+                                </tr>
+                            {{/weekly_report_table_data}}
+                                <tr>
+                                    <td style="border: 1px solid gray; padding : 0.5rem; min-width: 100px" align="center"><strong>Total</strong></td>
+                                    <td style="border: 1px solid gray; padding : 0.5rem; min-width: 100px" align="center">{{total_completed_hours}}</td>
+                                    <td style="border: 1px solid gray; padding : 0.5rem; min-width: 100px" align="center">{{total_open_hours}}</td>
+                                </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
